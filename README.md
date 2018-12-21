@@ -1,6 +1,6 @@
 PyAlgoTrade mootdx module
 =========================
-此项目是 PyAlgoTrade mootdx(基于 pytdx 的二次封装版本) 的一个数据源
+此项目是 PyAlgoTrade [mootdx](https://github.com/bopo/mootdx) (基于 pytdx 的二次封装版本) 的一个数据源
 
 一个简单的用法:
 
