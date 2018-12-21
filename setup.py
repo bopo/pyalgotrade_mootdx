@@ -31,11 +31,6 @@ setup(
     license="MIT license",
     zip_safe=False,
     keywords='pyalgotrade_mootdx',
-    entry_points={
-        'console_scripts': [
-            'pyalgotrade_mootdx = pyalgotrade_mootdx.cli:main',
-        ]
-    },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
@@ -45,6 +40,8 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     test_suite='tests',
     tests_require=test_requirements,
