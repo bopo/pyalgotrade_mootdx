@@ -1,5 +1,3 @@
-# coding=utf-8
-
 from pyalgotrade import plotter, strategy
 from pyalgotrade.bar import Frequency
 from pyalgotrade.barfeed.csvfeed import GenericBarFeed
@@ -59,7 +57,7 @@ class Strategy(strategy.BacktestingStrategy):
 
 def main():
     instruments = ["600036"]
-    feeds = tools.build_feed(instruments, 2003, 2018, "histdata/mootdx")
+    feeds = tools.build_feed(instruments, 2017, 2018, "histdata")
 
     # 3.实例化策略
     strat = Strategy(feeds, instruments[0])
@@ -75,7 +73,7 @@ def main():
 
     # 6.输出夏普率、绘图
     strat.info("夏普比率: " + str(ratio.getSharpeRatio(0)))
-    plter.plot()
+    # plter.plot()
 
 
 if __name__ == '__main__':
